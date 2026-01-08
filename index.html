@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ananda Putra Prawira | Cyber Security & Backend Enthusiast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+    body{min-height:100vh;background:linear-gradient(135deg,#e0f2ff,#f5e9ff,#eafff4);color:#0f172a;overflow-x:hidden}
+    #particles-js{position:fixed;width:100%;height:100%;z-index:-1}
+    header{padding:80px 20px;text-align:center}
+    header h1{font-size:3rem;font-weight:700;animation:fadeDown 1.2s ease}
+    header p{margin-top:16px;font-size:1.1rem;opacity:.8;animation:fadeUp 1.5s ease}
+    section{max-width:1100px;margin:0 auto;padding:60px 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
+    .card{background:rgba(255,255,255,.6);backdrop-filter:blur(10px);border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.4s}
+    .card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,0,0,.12)}
+    h2{font-size:2rem;margin-bottom:24px}
+    ul{list-style:none;line-height:1.9}
+    .tag{display:inline-block;padding:6px 14px;border-radius:999px;background:linear-gradient(135deg,#7dd3fc,#c7d2fe);font-size:.85rem;margin:6px 6px 0 0}
+    footer{text-align:center;padding:40px 20px;font-size:.9rem;opacity:.7}
+    @keyframes fadeDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:none}}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+    @media(max-width:600px){header h1{font-size:2.2rem}}
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <header>
+    <h1>Ananda Putra Prawira</h1>
+    <p>Cyber Security (CTF Player) & Backend Enthusiast </p>
+  </header>
+
+  <section>
+    <h2>Tentang Saya</h2>
+    <div class="card">
+      <p>Saya adalah pelajar dengan minat di bidang Cyber Security dan Backend Development. Aktif mempelajari keamanan sistem melalui CTF dan eksplorasi teknis, dengan fokus pada pemahaman konsep. Saat ini mendalami Python, C, dan Assembly sebagai fondasi analisis sistem dan eksploitasi tingkat rendah.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Fokus Cyber Security</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Forensic</h3>
+        <p>Analisis file, log, dan artefak sistem untuk memahami jejak digital serta rekonstruksi kejadian.</p>
+      </div>
+      <div class="card">
+        <h3>Cryptography</h3>
+        <p>Belajar konsep kriptografi klasik dan modern, analisis kelemahan implementasi, dan challenge berbasis matematika.</p>
+      </div>
+      <div class="card">
+        <h3>Reverse Engineering</h3>
+        <p>Memahami alur program biner, analisis assembly, dan logika internal aplikasi sebagai proses pembelajaran.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Teknologi, Bahasa, dan Tools</h2>
+    <div class="card">
+      <span class="tag">Python</span>
+      <span class="tag">C</span>
+      <span class="tag">Assembly</span>
+      <span class="tag">Linux</span>
+      <span class="tag">Networking</span>
+      <span class="tag">Backend Basics</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Aktivitas</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>CTF Player</h3>
+        <p>Mengikuti CTF untuk melatih logika, ketelitian, dan pemahaman eksploitasi secara bertahap.</p>
+      </div>
+      <div class="card">
+        <h3>Learning Process</h3>
+        <p>Eksplorasi mandiri, membaca writeup, eksperimen lokal, dan membangun fondasi teknis jangka panjang.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Ananda Putra Prawira | Cyber Security & Backend Enthusiast
+  </footer>
+
+  <script>
+    particlesJS('particles-js',{
+      particles:{number:{value:80},color:{value:'#7dd3fc'},shape:{type:'circle'},opacity:{value:.5},size:{value:3},line_linked:{enable:true,distance:150,color:'#c7d2fe',opacity:.4,width:1},move:{enable:true,speed:2}},
+      interactivity:{events:{onhover:{enable:true,mode:'repulse'},onclick:{enable:true,mode:'push'}},modes:{repulse:{distance:100},push:{particles_nb:4}}},
+      retina_detect:true
+    })
+  </script>
+</body>
+</html>
