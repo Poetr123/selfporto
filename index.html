@@ -35,7 +35,7 @@ canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1}
 <div class="hero-text">
 <h1>Ananda Putra Prawira</h1>
 <h2>Cyber Security & Backend Enthusiast</h2>
-<p>CTF player dengan fokus proses belajar di bidang Cyber Security dan Backend Development. Memiliki ketertarikan utama pada Forensic Analysis, Cryptography, dan Reverse Engineering. Aktif mempelajari Python, C, dan Assembly untuk memahami sistem secara mendalam dari level aplikasi hingga low-level execution.</p>
+<p>CTF player dengan fokus proses belajar di bidang Cyber Security dan Backend Development. Memiliki ketertarikan utama pada Forensic Analysis, Cryptography, dan Reverse Engineering. Sedang mempelajari Python, C, dan Assembly untuk memahami sistem secara mendalam dari level aplikasi hingga low-level execution.</p>
 </div>
 </section>
 <section class="section">
@@ -57,10 +57,10 @@ canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1}
 <section class="section">
 <h3>Profile Summary</h3>
 <div class="card">
-<p>Berorientasi pada pembelajaran jangka panjang di industri teknologi dan keamanan siber. Terbiasa dengan tantangan problem-solving dari CTF dan eksplorasi sistem. Fokus membangun fondasi teknis yang kuat dan profesionalisme dalam dunia industri teknologi.</p>
+<p>Berorientasi pada pembelajaran jangka panjang di Backend Development dan Cyber Security. Terbiasa dengan tantangan problem solving dari CTF dan eksplorasi sistem. Fokus membangun fondasi teknis yang kuat dan profesionalisme dalam dunia industri teknologi.</p>
 </div>
 </section>
-<div class="footer">© 2026 Ananda Putra Prawira • Cyber Security Portfolio</div>
+<div class="footer">© 2026 Ananda Putra Prawira | Portfolio</div>
 </div>
 <script>
 const canvas=document.getElementById('binary'),ctx=canvas.getContext('2d');let w,h;function resize(){w=canvas.width=window.innerWidth;h=canvas.height=window.innerHeight}window.addEventListener('resize',resize);resize();const cols=Math.floor(w/20);const drops=Array(cols).fill(1);function draw(){ctx.fillStyle='rgba(2,10,20,0.15)';ctx.fillRect(0,0,w,h);ctx.fillStyle='#4fd1ff';ctx.font='16px monospace';for(let i=0;i<drops.length;i++){const text=Math.random()>0.5?'1':'0';ctx.fillText(text,i*20,drops[i]*20);if(drops[i]*20>h&&Math.random()>0.975)drops[i]=0;drops[i]++}}setInterval(draw,50)
